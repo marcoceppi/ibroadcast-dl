@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ibroadcast-dl"
+version = "0.1.0"
+description = "Download / Sync library from iBroadcast on Linux machines"
+authors = ["Marco Ceppi <marco@ceppi.net>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [
+    { include = "ibroadcastdl" },
+]
+
+[tool.poetry.scripts]
+ibroadcast-dl = 'ibroadcastdl.cli:app'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ibroadcast = "^1.1.2"
+pydantic = "^2.6.1"
+typer = "^0.9.0"
+rich = "^13.7.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+isort = "^5.13.2"
+pytest = "^8.0.1"
+pylint = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
