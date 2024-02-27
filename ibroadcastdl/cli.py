@@ -22,7 +22,7 @@ app = typer.Typer(rich_markup_mode="rich")
 
 
 @app.command(
-    epilog=f"Version {version('ibroadcast-dl')}. Made with :star2:  [link=https://github.com/marcoceppi/ibroadcast-dl]github.com/marcoceppi/ibroadcast-dl[/link]"
+    epilog=f"Version {version('ibroadcast-dl')}. Made with :star2: [link=https://github.com/marcoceppi/ibroadcast-dl]github.com/marcoceppi/ibroadcast-dl[/link]"
 )
 def download(
     username: Annotated[
