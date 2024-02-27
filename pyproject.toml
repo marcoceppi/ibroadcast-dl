@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ibroadcast-dl"
-version = "0.1.0"
+version = "1.0.0"
 description = "Download / Sync library from iBroadcast on Linux machines"
 authors = ["Marco Ceppi <marco@ceppi.net>"]
 license = "Apache-2.0"
