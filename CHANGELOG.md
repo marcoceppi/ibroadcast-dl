@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.0.0...v1.1.0) (2024-02-27)
+
+
+### Features
+
+* broadcast client and version ([afe6c0c](https://github.com/marcoceppi/ibroadcast-dl/commit/afe6c0c97911d259265f789309a314fee4888b8b))
+
 ## 1.0.0 (2024-02-27)
 
 
