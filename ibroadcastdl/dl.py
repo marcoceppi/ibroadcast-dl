@@ -4,6 +4,7 @@ from io import BytesIO
 from zipfile import ZipFile
 from pathlib import Path
 from urllib.parse import urlunsplit, urlencode
+from importlib.metadata import version as pkgversion
 
 import ibroadcast
 import requests
@@ -20,6 +21,18 @@ def build_url(path: str, query: dict | None = None) -> str:
 
 class iBroadcastDL(ibroadcast.iBroadcast):
     """iBroadcast Class extension with Download functionality"""
+
+    def __init__(
+        self,
+        username,
+        password,
+        log=None,
+        client="ibroadcast-python",
+        version=None,
+    ):
+        """Initiate a client and login"""
+        version = version or pkgversion("ibroadcast-dl")
+        super().__init__(username, password, log, client, version)
 
     def download_library(
         self, offset: int = 0, length: int = 1, dest: Path | None = None
