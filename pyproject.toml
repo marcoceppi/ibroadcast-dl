@@ -27,6 +27,11 @@ pylint = "^3.0.3"
 ruff = "^0.2.2"
 pytest-cov = "^4.1.0"
 
+[tool.coverage.run]
+omit = [
+    "ibroadcastdl/__main__.py",
+]
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
