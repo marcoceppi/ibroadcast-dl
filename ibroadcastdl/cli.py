@@ -16,6 +16,7 @@ from rich.progress import (
 from typing_extensions import Annotated
 
 from ibroadcastdl.dl import iBroadcastDL
+from ibroadcastdl.exceptions import IncompleteDownload
 
 
 app = typer.Typer(rich_markup_mode="rich")
@@ -73,7 +74,11 @@ def download(
         task = progress.add_task("Downloading...", total=len(ib.tracks))
         progress.update(task, completed=metadata["offset"])
         while not progress.finished:
-            ib.download_library(metadata["offset"], parallel, output)
+            try:
+                ib.download_library(metadata["offset"], parallel, output)
+            except IncompleteDownload:
+                print("Incomplete download detected, retrying...")
+                continue
             metadata["offset"] += parallel
             metadata_file.write_text(json.dumps(metadata, indent=2))
             progress.update(task, advance=parallel)
