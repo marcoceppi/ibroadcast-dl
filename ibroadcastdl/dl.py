@@ -9,6 +9,9 @@ from importlib.metadata import version as pkgversion
 import ibroadcast
 import requests
 
+from ibroadcastdl.exceptions import IncompleteDownload
+
+
 SCHEME = "https"
 DOMAIN = "download.ibroadcast.com"
 
@@ -48,7 +51,9 @@ class iBroadcastDL(ibroadcast.iBroadcast):
             "end_marker": 1,
         }
         resp = requests.get(build_url("/", query))
+        if not resp.content.endswith(b"EOF\n"):
+            raise IncompleteDownload("download interrupted")
 
-        archive = ZipFile(BytesIO(resp.content))
+        archive = ZipFile(BytesIO(resp.content.removesuffix(b"EOF\n")))
         archive.extractall(dest)
         return resp.headers.get("Response-Count", None)
