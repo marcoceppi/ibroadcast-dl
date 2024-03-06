@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.0...v1.1.1) (2024-03-06)
+
+
+### Bug Fixes
+
+* check for and strip end_marker ([#13](https://github.com/marcoceppi/ibroadcast-dl/issues/13)) ([23568d9](https://github.com/marcoceppi/ibroadcast-dl/commit/23568d9e5f03acc73fff03cc9d8dea033f2fb94a))
+
 ## [1.1.0](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.0.0...v1.1.0) (2024-02-27)
 
 
