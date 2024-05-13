@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.1...v1.1.2) (2024-05-13)
+
+
+### Bug Fixes
+
+* change dependency updates to use deps prefix and not chore ([2e3c661](https://github.com/marcoceppi/ibroadcast-dl/commit/2e3c661254d8181b2e6d9b956cf77b7a000fb713))
+
 ## [1.1.1](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.0...v1.1.1) (2024-03-06)
 
 
