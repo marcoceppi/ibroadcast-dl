@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.5](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.4...v1.1.5) (2024-07-02)
+
+
+### Dependencies
+
+* **deps-dev:** bump pylint from 3.2.3 to 3.2.5 ([#53](https://github.com/marcoceppi/ibroadcast-dl/issues/53)) ([f1cbbbf](https://github.com/marcoceppi/ibroadcast-dl/commit/f1cbbbf9bbdbdddcc1b399ec4f5521c409cbc2e7))
+* **deps-dev:** bump ruff from 0.4.9 to 0.4.10 ([#51](https://github.com/marcoceppi/ibroadcast-dl/issues/51)) ([468f969](https://github.com/marcoceppi/ibroadcast-dl/commit/468f969ca0fe42de3eb959f90365dd9a631c6ab2))
+
 ## [1.1.4](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.3...v1.1.4) (2024-06-18)
 
 
