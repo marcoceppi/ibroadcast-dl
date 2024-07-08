@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.5...v1.1.6) (2024-07-08)
+
+
+### Dependencies
+
+* **deps:** bump pydantic from 2.7.4 to 2.8.2 ([#56](https://github.com/marcoceppi/ibroadcast-dl/issues/56)) ([2d4360e](https://github.com/marcoceppi/ibroadcast-dl/commit/2d4360eb25daec495eb1be01b64bdd1c9d4b3685))
+
 ## [1.1.5](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.4...v1.1.5) (2024-07-02)
 
 
