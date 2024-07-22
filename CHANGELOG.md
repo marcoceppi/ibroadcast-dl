@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.7](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.6...v1.1.7) (2024-07-22)
+
+
+### Dependencies
+
+* **deps-dev:** bump pylint from 3.2.5 to 3.2.6 ([#61](https://github.com/marcoceppi/ibroadcast-dl/issues/61)) ([ebaa9fc](https://github.com/marcoceppi/ibroadcast-dl/commit/ebaa9fc9c244555d495421ee03b4d108f5dedec2))
+* **deps-dev:** bump pytest from 8.2.2 to 8.3.1 ([#59](https://github.com/marcoceppi/ibroadcast-dl/issues/59)) ([d63fac2](https://github.com/marcoceppi/ibroadcast-dl/commit/d63fac2458f7fe49f349b86a34c194407041c843))
+
 ## [1.1.6](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.5...v1.1.6) (2024-07-08)
 
 
