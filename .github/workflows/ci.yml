@@ -38,6 +38,6 @@ jobs:
       - name: Check code formatting
         run: poetry run black --check ibroadcastdl
       - name: Lint code
-        run: poetry run ruff ibroadcastdl
+        run: poetry run ruff check ibroadcastdl
       # - name: Run pytest
       #   run: poetry run pytest --cov=ibroadcastdl --cov-report=term-missing
