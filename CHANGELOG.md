@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.1.8](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.7...v1.1.8) (2024-10-07)
+
+
+### Dependencies
+
+* **deps-dev:** bump pylint from 3.2.6 to 3.3.1 ([#85](https://github.com/marcoceppi/ibroadcast-dl/issues/85)) ([cddaebb](https://github.com/marcoceppi/ibroadcast-dl/commit/cddaebbab9e64130c32a7e3ff7b2ea631dc56112))
+* **deps-dev:** bump pytest from 8.3.2 to 8.3.3 ([#86](https://github.com/marcoceppi/ibroadcast-dl/issues/86)) ([1628aa4](https://github.com/marcoceppi/ibroadcast-dl/commit/1628aa4566c458f3d2abffa1fe6f1eef2a5e6ce7))
+* **deps-dev:** bump ruff from 0.5.7 to 0.6.1 ([#69](https://github.com/marcoceppi/ibroadcast-dl/issues/69)) ([b41fce0](https://github.com/marcoceppi/ibroadcast-dl/commit/b41fce0c30f4ec9c83e99e7f4fe27f5999bb1a12))
+* **deps-dev:** bump ruff from 0.6.1 to 0.6.8 ([#84](https://github.com/marcoceppi/ibroadcast-dl/issues/84)) ([4b84192](https://github.com/marcoceppi/ibroadcast-dl/commit/4b841921fd5a65b4677ffccc1f66b4838d949208))
+* **deps-dev:** bump ruff from 0.6.8 to 0.6.9 ([#88](https://github.com/marcoceppi/ibroadcast-dl/issues/88)) ([8d065bd](https://github.com/marcoceppi/ibroadcast-dl/commit/8d065bd9a34022b82e3ba4bcbcc8e14c438228ec))
+* **deps:** bump pydantic from 2.8.2 to 2.9.2 ([#81](https://github.com/marcoceppi/ibroadcast-dl/issues/81)) ([babd154](https://github.com/marcoceppi/ibroadcast-dl/commit/babd154de70c2d1e0b8a397d820ba9367d63ac75))
+* **deps:** bump rich from 13.7.1 to 13.8.1 ([#79](https://github.com/marcoceppi/ibroadcast-dl/issues/79)) ([19bd636](https://github.com/marcoceppi/ibroadcast-dl/commit/19bd636052e044a58204dca95e2f22561031155f))
+* **deps:** bump rich from 13.8.1 to 13.9.2 ([#87](https://github.com/marcoceppi/ibroadcast-dl/issues/87)) ([fecf047](https://github.com/marcoceppi/ibroadcast-dl/commit/fecf047e2356c0eabc94d54840121b6d373ddc1f))
+* **deps:** bump typer from 0.12.3 to 0.12.4 ([#68](https://github.com/marcoceppi/ibroadcast-dl/issues/68)) ([7fbcf20](https://github.com/marcoceppi/ibroadcast-dl/commit/7fbcf20cbba0bb446ec6fc77502942485ed7835f))
+* **deps:** bump typer from 0.12.4 to 0.12.5 ([#71](https://github.com/marcoceppi/ibroadcast-dl/issues/71)) ([136365e](https://github.com/marcoceppi/ibroadcast-dl/commit/136365efddf7404a14994cc79ccc4c64b36cfe8e))
+
 ## [1.1.7](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.6...v1.1.7) (2024-08-14)
 
 
