@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.10](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.9...v1.1.10) (2024-11-20)
+
+
+### Dependencies
+
+* **deps-dev:** bump ruff from 0.7.1 to 0.7.4 ([#99](https://github.com/marcoceppi/ibroadcast-dl/issues/99)) ([6573a81](https://github.com/marcoceppi/ibroadcast-dl/commit/6573a81da0d04e376013f88fb3a69d6b6b13dd42))
+* **deps:** bump rich from 13.9.3 to 13.9.4 ([#94](https://github.com/marcoceppi/ibroadcast-dl/issues/94)) ([5cbb1af](https://github.com/marcoceppi/ibroadcast-dl/commit/5cbb1af84c58a7ba6b88dc4a78cb2ff98e4c9e37))
+* **deps:** bump typer from 0.12.5 to 0.13.0 ([#98](https://github.com/marcoceppi/ibroadcast-dl/issues/98)) ([d557ad4](https://github.com/marcoceppi/ibroadcast-dl/commit/d557ad41991730ddaf5e82b53f2e1ddc354d4d1e))
+
 ## [1.1.9](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.8...v1.1.9) (2024-10-28)
 
 
