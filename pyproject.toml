@@ -16,7 +16,7 @@ ibroadcast-dl = 'ibroadcastdl.cli:app'
 python = "^3.11"
 ibroadcast = "^1.1.2"
 pydantic = "^2.6.1"
-typer = ">=0.9,<0.14"
+typer = ">=0.9,<0.16"
 rich = "^13.7.0"
 
 [tool.poetry.group.dev.dependencies]
