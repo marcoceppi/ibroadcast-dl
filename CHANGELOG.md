@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.11](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.10...v1.1.11) (2025-01-07)
+
+
+### Dependencies
+
+* **deps-dev:** bump pylint from 3.3.1 to 3.3.3 ([#115](https://github.com/marcoceppi/ibroadcast-dl/issues/115)) ([b840c8f](https://github.com/marcoceppi/ibroadcast-dl/commit/b840c8fd380622181b0fbd0e206d2071056e1607))
+* **deps-dev:** bump pytest from 8.3.3 to 8.3.4 ([#108](https://github.com/marcoceppi/ibroadcast-dl/issues/108)) ([1984c8a](https://github.com/marcoceppi/ibroadcast-dl/commit/1984c8a1238e667c1d7c0980560ec641b71c126e))
+* **deps-dev:** bump ruff from 0.7.4 to 0.8.6 ([#116](https://github.com/marcoceppi/ibroadcast-dl/issues/116)) ([4586ca7](https://github.com/marcoceppi/ibroadcast-dl/commit/4586ca787db20be47b131c9425770d45e7650016))
+* **deps:** bump pydantic from 2.9.2 to 2.10.4 ([#113](https://github.com/marcoceppi/ibroadcast-dl/issues/113)) ([7f3523a](https://github.com/marcoceppi/ibroadcast-dl/commit/7f3523a96d86d6a2de3aa35ba76441ba6cc7f5cc))
+* **deps:** bump typer from 0.13.0 to 0.15.1 ([#109](https://github.com/marcoceppi/ibroadcast-dl/issues/109)) ([c082dc3](https://github.com/marcoceppi/ibroadcast-dl/commit/c082dc3a63a7c5f951af63ac9bb4cf058dcd5355))
+
 ## [1.1.10](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.9...v1.1.10) (2024-11-20)
 
 
