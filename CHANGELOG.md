@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.12](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.11...v1.1.12) (2025-01-21)
+
+
+### Dependencies
+
+* **deps-dev:** bump ruff from 0.8.6 to 0.9.2 ([#120](https://github.com/marcoceppi/ibroadcast-dl/issues/120)) ([97bbd41](https://github.com/marcoceppi/ibroadcast-dl/commit/97bbd415affd3947d8338631444778dad14f8192))
+* **deps:** bump pydantic from 2.10.4 to 2.10.5 ([#119](https://github.com/marcoceppi/ibroadcast-dl/issues/119)) ([4f48e43](https://github.com/marcoceppi/ibroadcast-dl/commit/4f48e4318b6140d7c24e5129f45cc685485ae3a0))
+
 ## [1.1.11](https://github.com/marcoceppi/ibroadcast-dl/compare/v1.1.10...v1.1.11) (2025-01-07)
 
 
