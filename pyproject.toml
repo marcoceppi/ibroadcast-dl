@@ -21,7 +21,7 @@ rich = "^13.7.0"
 
 [tool.poetry.group.dev.dependencies]
 black = ">=24.2,<26.0"
-isort = "^5.13.2"
+isort = ">=5.13.2,<7.0.0"
 pytest = "^8.0.1"
 pylint = "^3.0.3"
 ruff = ">=0.2.2,<0.10.0"
